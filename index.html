@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/index.css" rel="stylesheet">
     <title>Document</title>
+    <!--N.B. I'm using the third wire-frame option-->
 </head>
 <body>
-    
+    <header>
+    <!--header should flex col-->
+        <h1></h1>
+        <nav>
+        <!--nav should flex row-->
+            <a></a>
+            <a></a>
+            <a></a>
+            <a></a>
+        </nav>
+    </header>
+    <main>
+    <!--main should flex col-->
+        <section class="introduction">
+        <!--introduction should flex col-->
+            <div class="text">
+                <h1></h1>
+                <p></p>
+            </div>
+            <div class="main-image">
+            </div>
+        </section>
+        <section class="portfolio-preview">
+            <!--portfolio-preview should flex row-->
+            <!--thumbnails as cropped background images or with object-fit?-->
+            <img src="images/greentree.jpg" class="portfolio-thumbnail">
+            <img src="images/erosion.jpg" class="portfolio-thumbnail">
+            <img src="images/writertool.jpg" class="portfolio-thumbnail">
+            <img src="images/walkit.jpg" class="portfolio-thumbnail">
+            <div class="legend">
+            <!--legend should flex col-->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <a>contact</a>
+        </nav>
+    </footer>
 </body>
 </html>
